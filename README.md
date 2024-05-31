@@ -10,7 +10,13 @@ This Python script scrapes the BPUT website for notices and sends them to a Disc
 
 ## Usage
 
-Run the script:
+1. Install the required packages:
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+2. Run the script:
 
 ```bash
 python main.py
