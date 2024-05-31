@@ -18,5 +18,5 @@ This Python script scrapes the BPUT website for notices and sends them to a Disc
 
 2. Run the script:
 
-```bash
-python main.py
+    ```bash
+    python main.py
