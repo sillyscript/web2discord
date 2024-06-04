@@ -1,0 +1,6 @@
+{
+	"newsUrl" : "https://www.bput.ac.in/news.php",
+	"cupgsUrl" : "https://www.bput.ac.in/student-notices.php",
+	"newsletterUrl" : "https://www.bput.ac.in/bput-news-quarterly-newsletter-.html",
+	"discord": "YOUR DISCORD WEBHOOK URL"
+}
