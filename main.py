@@ -1,6 +1,7 @@
 import json
 import aiohttp
 import asyncio
+import time
 from scraper import scrape
 from checker import checkIfNew
 from discordsend import send_embed
@@ -33,7 +34,7 @@ async def noticeFinder(site: str):
                 
             else:
                 print("Failed Response")
+    time.sleep(1800)
 
 loop = asyncio.get_event_loop()
 loop.run_until_complete(noticeFinder("main"))
-loop.close()
